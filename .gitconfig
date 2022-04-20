@@ -1,0 +1,10 @@
+[user]
+	email = 79146676+Oliveth96@users.noreply.github.com
+	name = Oliveth96
+[core]
+	longpaths = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
